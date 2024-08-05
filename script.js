@@ -148,7 +148,7 @@ function createLayout() {
   container.style.fontFamily = 'monospace'
   container.style.alignItems = 'flex-end'
   container.style.boxSizing = 'border-box'
-  container.style.position = 'absolute'
+  //container.style.position = 'absolute'
   container.style.top = '0px'
   container.style.right = '0px'
   container.style.margin = '0'
