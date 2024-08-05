@@ -12,7 +12,7 @@
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @run-at      document-end
-// @resource    BACKGROUND https://georg95.github.io/hamster-bike-keygen/keygen_bg.jpg
+// @resource    BACKGROUND https://wsinc-git.github.io/teste/keygen_bg.jpg
 // @noframes
 // ==/UserScript==
 
@@ -246,7 +246,7 @@ function createLayout() {
   startBtn.addEventListener('click', runAudio)
   function runAudio() {
     startBtn.removeEventListener('click', runAudio)
-    const audio = new Audio('https://georg95.github.io/hamster-bike-keygen/ICU%20-%20CrackMe%20v0.2.mp3')
+    const audio = new Audio('https://wsinc-git.github.io/teste/ICU%20-%20CrackMe%20v0.2.mp3')
     audio.loop = true
     function switchAudio() {
       if (audio.paused) {
