@@ -1,5 +1,4 @@
 // ==UserScript==
-// https://wsinc-git.github.io/teste/
 // @name        Hamster bike keygen - wsinc
 // @version     1.11
 // @homepageURL https://wsinc-git.github.io/teste/
