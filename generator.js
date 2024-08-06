@@ -2,7 +2,7 @@
 // @name        Hamster bike keygen - wsinc
 // @version     1.11
 // @homepageURL https://wsinc-git.github.io/teste/
-// @downloadURL https://wsinc-git.github.io/teste/script.js
+// @downloadURL https://wsinc-git.github.io/teste/generator.js
 // @author      wsinc
 // @namespace   Violentmonkey Scripts
 // @match       *://wsinc-git.github.io/teste/*
