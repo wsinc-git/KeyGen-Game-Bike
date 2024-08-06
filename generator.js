@@ -179,7 +179,7 @@ function createLayout() {
   promoLink.style.left = '10px'
   promoLink.style.top = '10px'
   promoLink.href = location.href
-  promoLink.innerText = 'wsinc-git.github.io/index.html'
+  promoLink.innerText = 'wsinc-git.github.io/teste/index.html'
   promoLink.target = '_blank'
 
   const keyText = document.createElement('div')
@@ -245,7 +245,7 @@ function createLayout() {
   startBtn.addEventListener('click', runAudio)
   function runAudio() {
     startBtn.removeEventListener('click', runAudio)
-    const audio = new Audio('https://wsinc-git.github.io/teste/ICU%20-%20CrackMe%20v0.2.mp3')
+    const audio = new Audio('https://wsinc-git.github.io/teste/sound.m4a')
     audio.loop = true
     function switchAudio() {
       if (audio.paused) {
@@ -321,7 +321,7 @@ async function emulateProgess(clientToken) {
 async function generateKey(clientToken) {
     if (DEBUG_MODE) {
       if (attempts[clientToken] >= 5) {
-        return 'BIKE-3YD-5ZA6-3VJA-Y77'
+        return 'BIKE-XXX-XXXX-XXXX-XXX'
       } else {
         return ''
       }
