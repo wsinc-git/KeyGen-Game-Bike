@@ -1,17 +1,17 @@
 // ==UserScript==
 // @name        Hamster bike keygen - wsinc
 // @version     1.11
-// @homepageURL https://wsinc-git.github.io/teste/
-// @downloadURL https://wsinc-git.github.io/teste/generator.js
+// @homepageURL https://wsinc-git.github.io/generator-code-key-hamster-kombat/
+// @downloadURL https://wsinc-git.github.io/generator-code-key-hamster-kombat/generator.js
 // @author      wsinc
 // @namespace   Violentmonkey Scripts
-// @match       *://wsinc-git.github.io/teste/*
+// @match       *://wsinc-git.github.io/generator-code-key-hamster-kombat/*
 // @grant       GM_xmlhttpRequest
 // @grant       GM_getResourceURL
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @run-at      document-end
-// @resource    BACKGROUND https://wsinc-git.github.io/teste/keygen.png
+// @resource    BACKGROUND https://wsinc-git.github.io/generator-code-key-hamster-kombat/keygen.png
 // @noframes
 // ==/UserScript==
 
@@ -245,7 +245,7 @@ function createLayout() {
   startBtn.addEventListener('click', runAudio)
   function runAudio() {
     startBtn.removeEventListener('click', runAudio)
-    const audio = new Audio('https://wsinc-git.github.io/teste/sound2.wav')
+    const audio = new Audio('https://wsinc-git.github.io/generator-code-key-hamster-kombat/sound3.mp3')
     audio.loop = true
     function switchAudio() {
       if (audio.paused) {
