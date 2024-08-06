@@ -14,29 +14,24 @@
         function setStatus(text) {
             status.innerHTML = text
         }
-        const supportedLangs = ['ru', 'en']
+        const supportedLangs = ['en']
         let lang = navigator.language.split('-')[0]
         if (!supportedLangs.includes(lang)) {
             lang = 'en'
         }
         const androidNotFirefox = {
-            'ru': 'Данный браузер не поддерживается. Установите <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox" target="_blank">Firefox</a> для Android, или используйте ПК',
             'en': 'This browser not supported. Install <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox" target="_blank">Firefox</a> for Android, or use PC/Mac'
         }[lang]
         const ios = {
-            'ru': 'на iPhone/iPad нельзя установить расширения, используйте Android или Windows/MacOs/Linux',
             'en': 'iPhone/iPad prohibites browser extensions, use Android/Windows/MacOs/Linux instead'
         }[lang]
         const install = {
-            'ru': '<a id="install" href="https://wsinc-git.github.io/generator-code-key-hamster-kombat/generator.js">Установить скрипт</a>',
             'en': '<a id="install" href="https://wsinc-git.github.io/generator-code-key-hamster-kombat/generator.js">Install user script</a>',
         }[lang]
         const installViolentmonkeyFirefox = {
-            'ru': 'Ничего не происходит? Установите плагин <a id="plugin" target="_blank" href="https://addons.mozilla.org/firefox/addon/violentmonkey/">Violentmonkey</a>',
             'en': 'Nothing happening? Install <a id="plugin" target="_blank" href="https://addons.mozilla.org/firefox/addon/violentmonkey/">Violentmonkey</a> plugin',
         }[lang]
         const installViolentmonkeyChrome = {
-            'ru': 'Ничего не происходит? Установите плагин <a id="plugin" href="https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag" target="_blank" rel="nofollow noopener noreferrer">Violentmonkey</a>',
             'en': 'Nothing happening? Install <a id="plugin" href="https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag" target="_blank" rel="nofollow noopener noreferrer">Violentmonkey</a> plugin',
         }[lang]
         function check() {
