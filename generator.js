@@ -245,7 +245,7 @@ function createLayout() {
   startBtn.addEventListener('click', runAudio)
   function runAudio() {
     startBtn.removeEventListener('click', runAudio)
-    const audio = new Audio('https://wsinc-git.github.io/teste/sound.m4a')
+    const audio = new Audio('https://wsinc-git.github.io/teste/sound2.wav')
     audio.loop = true
     function switchAudio() {
       if (audio.paused) {
