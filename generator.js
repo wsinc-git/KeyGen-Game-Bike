@@ -11,7 +11,7 @@
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @run-at      document-end
-// @resource    BACKGROUND https://wsinc-git.github.io/teste/keygen_bg.jpg
+// @resource    BACKGROUND https://wsinc-git.github.io/teste/keygen.png
 // @noframes
 // ==/UserScript==
 
