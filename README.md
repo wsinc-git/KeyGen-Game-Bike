@@ -1,4 +1,4 @@
-# Hamster Kombat Gerador de Código Bike
+# Gerador de Código Bike - Hamster Kombat
 
 ## [Gerador](https://georg95.github.io/bike-keygen.html)
 
