@@ -1,4 +1,5 @@
-# Gerador de Código Bike - Hamster Kombat
+# Gerador de Código Bike
+## Hamster Kombat
 
 ## [Gerador](https://wsinc.github.io/index.html)
 
