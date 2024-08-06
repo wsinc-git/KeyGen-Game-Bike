@@ -179,7 +179,7 @@ function createLayout() {
   promoLink.style.left = '10px'
   promoLink.style.top = '10px'
   promoLink.href = location.href
-  promoLink.innerText = 'wsinc-git.github.io/teste/index.html'
+  promoLink.innerText = 'wsinc/generator-code-key-hamster-kombat'
   promoLink.target = '_blank'
 
   const keyText = document.createElement('div')
