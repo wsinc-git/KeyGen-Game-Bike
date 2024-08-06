@@ -5,7 +5,7 @@
 // @downloadURL https://wsinc-git.github.io/teste/script.js
 // @author      wsinc
 // @namespace   Violentmonkey Scripts
-// @match       *://wsinc-git.github.io/*
+// @match       *://wsinc-git.github.io/teste/*
 // @grant       GM_xmlhttpRequest
 // @grant       GM_getResourceURL
 // @grant       GM_getValue
